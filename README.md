@@ -76,7 +76,10 @@ Objective: Quantify the power efficiency of ZKP acceleration across multiple H10
 - Hardware Assumptions: Assumes access to a system with 3-5 H100 GPUs (e.g., DGX H100) and a compatible CPU with TEE support.
 
 **Expected Outcomes**
-- Test 1: Demonstrate high TPS (e.g., 300-500) with near-linear scaling across GPUs, validating collaborative acceleration.
-- Test 2: Achieve low TTFP (e.g., <100 ms), showing efficient CPU-GPU handoff.
-- Test 3: Confirm TEE overhead is minimal (e.g., <5%), aligning with H100’s design for confidential computing.
-- Test 4: Highlight energy efficiency (e.g., >0.5 TPW), critical for scalable deployments.
+- Test 1: 100-200 PPS with near-linear scaling, reflecting Nethermind’s optimization expertise.
+- Test 2: TTFP <50 ms, showcasing tight CPU-GPU integration.
+- Test 3: TEE overhead <5%, aligning with confidential transaction needs.
+- Test 4: PPW >0.3, proving energy-efficient acceleration.
+
+
+
